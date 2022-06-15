@@ -15,7 +15,7 @@ public static void main(String[] args) throws InterruptedException {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 	
-	driver.get("https://demo.guru99.com/test/simple_context_menu.html");
+	driver.get("https://demo.guru99.com/test/simple_context_menu.html");   //select
 	
 	Thread.sleep(5000);
 	WebElement TargetDoubleClick = driver.findElement(By.xpath("//button[.='Double-Click Me To See Alert']"));
