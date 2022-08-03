@@ -22,6 +22,7 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.className("_4rR01T")).click();
 	driver.findElement(By.xpath("//li[@id='swatch-0-color']/a")).click();
 	//driver.findElement(By.xpath("//div[@class='_2C41yO']/ancestor::ul[@class='_1q8vHb']")).click();
+	//driver.findElement(By.xpath("//span[.='Cart']")).click();
 	
 	
 	
